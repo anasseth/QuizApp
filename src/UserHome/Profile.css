@@ -1,0 +1,82 @@
+.header {
+    position: fixed;
+    background-color: white;
+    height: 50px;
+    width: 1280px;
+    color: black;
+    border-bottom: 5px solid gray;
+    text-align: left;
+    transition-duration: 0.6s;
+}
+.username{
+    /* align-self:right; */
+    /* margin-left: 1200p; */
+    float: right;
+    margin-top: 15px;
+    color: black;
+    font-family: cursive;
+}
+
+/* #hoshiyaar {
+    margin-left: -5px;
+    float: right;
+    margin-top: -45px;
+} */
+
+/* p {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    /*font-family: 'Anton', sans-serif;*/
+    /* font-size: 30px; */
+     /* color: deeppink; */
+    /* transition-duration: 0.5s; */
+/* } */ */
+.header:hover {
+color: gray;
+background-color: white;
+transition-duration: 0.9s;
+}
+/* #guest {
+    color: white;
+    background-color: #139ad3;
+    border: 2px solid #139ad3;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anton', sans-serif;
+    /* margin-top: 30px; */
+    /* transition-duration: 0.5s; */
+    /* border-radius: px; */
+    /* font-size: 15px; */
+    /* text-decoration: none; */
+/* } */ */
+/* 
+#guest:hover {
+    background-color: white;
+    transition-duration: 0.5s;
+    color: #139ad3;
+
+} */
+
+#signout {
+    font-size: 15px;
+    text-decoration: none;
+    /* border-radius: 5px; */
+    transition-duration: 0.5s;
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anton', sans-serif;
+    /* margin-top: -50px; */
+}
+
+#signout:hover {
+    background-color: white;
+    transition-duration: 0.5s;
+    color: green;
+}

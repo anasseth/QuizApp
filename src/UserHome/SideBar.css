@@ -1,0 +1,106 @@
+#page-wrap {
+  text-align: center;
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+
+.bm-item {
+  display: inline-block;
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 30px;
+  /* margin-top: 10px; */
+  color: white;
+  transition: color 0.2s;
+  outline: none;
+}
+
+/* Change color on hover */
+
+.bm-item:hover {
+  color: orange;
+  transition-duration: 0.2s;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+
+.bm-burger-button {
+  position: fixed;
+  width: 16px;
+  height: 10px;
+  margin-top: -15px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+
+.bm-menu {
+  /* background-image: linear-gradient(360deg,darkblue,purple); */
+  background-color: gray;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.pic {
+  border: 1px solid transparent;
+  width: 150px;
+  height: 150px;
+  /* align-items: center; */
+  background-color: white;
+  color: #000;
+  box-shadow: 9px 11px 24px 0px rgba(0, 0, 0, 0.64);
+}
+
+button.signout {
+  transition-delay: 0.9s;
+  height: 50px;
+  width: 200px;
+  border: 1px solid rgb(231, 17, 17);
+  background-color: rgb(231,17,17);
+  color: white;
+  font-size: 15px; 
+  /* opacity: 0.5; */
+}
+

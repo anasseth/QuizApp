@@ -1,0 +1,10 @@
+.alignbox {
+    height: 600px;
+    width: auto;
+    /* margin-top: 70px; */
+    padding-top: 50px;
+    border: 2px solid transparent;
+}
+.b{
+    background-image: url('../Images/1.jpg');
+}

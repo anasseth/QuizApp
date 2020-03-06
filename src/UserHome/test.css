@@ -1,0 +1,12 @@
+.tot{
+    font-size: 50px;
+    color: black;
+    margin-top:500px;
+}
+.profile{
+    height: auto;
+    width: 800px;
+    padding: 50px;
+    border: 2px solid black;
+    align-items:right;
+}
