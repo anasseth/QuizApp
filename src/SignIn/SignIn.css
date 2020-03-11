@@ -2,10 +2,12 @@
     margin-top: 50px;
     height: auto;
     width: 500px;
+    border-top: 2px solid rgb(87, 240, 232);
+    border-bottom:2px solid rgb(87, 240, 232);
     /* border: 2px solid black; */
     /* border-radius: 40px; */
     /* background-image:linear-gradient(360deg, #7579ff, #b224ef); */
-    background-color: grey;
+    background-color: rgb(55, 65, 64);
     box-shadow: 9px 11px 24px 0px rgba(0,0,0,0.64);
 
 /* background-color: white; */

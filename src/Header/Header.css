@@ -5,19 +5,22 @@
     right: 0px;
     position: fixed;
     left: 0px;
-    background-color: white;
+    background-color: rgb(55, 65, 64);
     height: 75px;
     width: 1280px;
-    color: black;
-    border-bottom: 5px solid gray;
+    color: white;
+    border-bottom: 5px solid rgb(87, 240, 232);
     text-align: left;
     transition-duration: 0.6s;
+    font-size: 12px;
 }
-
+.heading{
+    margin-top: 30px;
+}
 #hoshiyaar {
     margin-left: -5px;
     float: right;
-    margin-top: -45px;
+    margin-top: -40px;
 }
 
 p {

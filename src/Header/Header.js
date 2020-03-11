@@ -14,7 +14,7 @@ class Header extends Component {
             <div class="header">
                 <span>
                     <div id="acebook">
-                        <h1>Quiz App Pro</h1>
+                        <h1 className='heading'>Quiz App Pro</h1>
                     </div>
                     <span id="hoshiyaar">
                         <Link id="guest" to='/'>SignIn</Link>
