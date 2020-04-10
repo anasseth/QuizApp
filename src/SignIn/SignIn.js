@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './SignIn.css';
-
+import { Route, Link, BrowserRouter as Router , Switch} from 'react-router-dom';
 
 
 class SignIn extends Component {
@@ -53,7 +53,7 @@ class SignIn extends Component {
                 </div>
                 <button class="google btn"><i class="fab fa-google fa-fw"></i> Login with Google+</button>
                 <button class="fb btn"><i class="fab fa-facebook-f fa-fw"></i> Login with Facebook</button>
-                <button id="submit" onClick={this.submit}><a href={this.state.switchto}>Submit</a></button>
+                <button id="submit" onClick={this.submit}><Link to='/User/UserProfile'>Submit</Link></button>
             </div>
         )
     }

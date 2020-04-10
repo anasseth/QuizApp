@@ -1,4 +1,4 @@
-import './Profile.css';
+import './Profile111.css';
 import './SideBar.css'
 import React, { Component } from 'react';
 import { slide as Menu } from "react-burger-menu";
@@ -13,7 +13,7 @@ class ProfileHeader extends Component {
     }
     render() {
         return (
-            <div class="header">
+            <div class="header12">
                 <span>
                     {/* <SideBar /> */}
                     <Menu>
@@ -38,7 +38,7 @@ class ProfileHeader extends Component {
                             <i class="fas fa-sign-out-alt"></i> SignOut
                         </button>
                     </Menu>
-                    <b className='username'>Hi ! Muhammad Anas</b>
+                    {/* <b className='username'>Hi ! Muhammad Anas</b> */}
                 </span>
             </div>
         );

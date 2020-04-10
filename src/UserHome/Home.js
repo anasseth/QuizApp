@@ -6,6 +6,7 @@ import UserProfile from './UserProfile.js'
 import CreateQuiz from './CreateQuiz.js'
 import TakeQuiz from './TakeQuiz.js';
 import Setting from './Setting.js';
+import QuizCatalog from './QuizCatalog'
 import './Home.css'
 
 
@@ -31,6 +32,8 @@ class Home extends Component {
             <Route path="/User/CreateQuiz" component={CreateQuiz} />
             <Route path="/User/TakeQuiz" component={TakeQuiz} />
             <Route path='/User/Setting' component={Setting} /> 
+            <Route path='/User/QuizCatalog' component={QuizCatalog} />
+             
             </div>
           </Switch>
           </center>

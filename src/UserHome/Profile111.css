@@ -1,27 +1,27 @@
-.header {
+.header12 {
     position: fixed;
     background-color: white;
     height: 50px;
-    width: 1280px;
+    width: auto;
     color: black;
     border-bottom: 5px solid gray;
     text-align: left;
     transition-duration: 0.6s;
 }
-.username{
+/* .username{
     /* align-self:right; */
-    /* margin-left: 1200p; */
-    float: right;
-    margin-top: 15px;
-    color: black;
-    font-family: cursive;
-}
+    /* margin-left: auto; */
+    /* float: right; */
+    /* margin-top: 15px; */
+    /* color: black; */
+    /* font-family: cursive; */
+/* } */ 
 
-/* #hoshiyaar {
+#hoshiyaar {
     margin-left: -5px;
     float: right;
     margin-top: -45px;
-} */
+}
 
 /* p {
     font-family: 'Lobster', cursive;

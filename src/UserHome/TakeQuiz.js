@@ -240,8 +240,8 @@ class TakeQuiz extends Component {
         }
         return (
             <div className="abc">
-                <h2>QuizApp Using ReactJS</h2>
-                <h3><b>{(!this.state.testCompleted) ? counterDisplay : "your score is"}</b></h3>
+                
+                <h3 className='opi'><b>{(!this.state.testCompleted) ? counterDisplay : "your score is"}</b></h3>
                 <ul className='options'>
                     {(!this.state.testCompleted) ? answerOptions : totalScoreOfUser}
                 </ul>
